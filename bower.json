@@ -1,0 +1,37 @@
+{
+  "name": "expandable-portfolio-gallery",
+  "version": "0.0.1",
+  "main": [
+    "./expandable-portfolio-gallery.js",
+    "./expandable-portfolio-gallery.css"
+  ],
+  "dependencies": {
+    "jquery": "^2.1.1"
+  },
+  "devDependencies": {
+    "almond": "^0.3.0",
+    "requirejs-text": "2.0.13",
+    "requirejs-domready": "2.0.1",
+    "underscore": "^1.7.0",
+    "jquery": "^2.1.1",
+    "normalize.css": "^3.0.2",
+    "masonry": "~3.2.3"
+  },
+  "overrides": {
+    "requirejs-text": {
+      "main": [
+        "text.js"
+      ]
+    },
+    "requirejs-domready": {
+      "main": [
+        "domReady.js"
+      ]
+    },
+    "masonry": {
+      "main": [
+        "dist/masonry.pkgd.js"
+      ]
+    }
+  }
+}
