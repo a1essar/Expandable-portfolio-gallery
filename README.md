@@ -35,6 +35,7 @@ Included HTML markup:
 </div>
 <div data-expandablePortfolioGallery-contentList="">
     <div data-expandablePortfolioGallery-content="itemId">
+        <a data-expandablePortfolioGallery-close="">&times;</a>
         ...
     </div>
 </div>
