@@ -4,6 +4,7 @@ Expandable portfolio gallery
 ## Getting started
 
 This example uses the Masonry library for better presentation.
+
 Included the latest jQuery library together with `expandable-portfolio-gallery.js` and `expandable-portfolio-gallery.css` into your document's `<head>`:
 
 ````html
